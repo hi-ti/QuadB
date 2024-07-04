@@ -19,7 +19,7 @@ connectDatabase();
 app
   .set("trust proxy", true)
   .disable("x-powered-by")
-  .use(cors())
+  .use(cors({ origin: "*" }))
   .use(express.json({ limit: "50mb" }))
   .use(express.urlencoded({ limit: "50mb", extended: false }))
   .use("/", routes)
