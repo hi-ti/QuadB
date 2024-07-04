@@ -7,10 +7,10 @@ git clone https://github.com/hi-ti/QuadB.git
 ```
 
 ## Pre-requisites:
-To run the client file
-There are pre-requisites:
-Node Package Manager(npm)
-Read documentation on [Node Docs](https://nodejs.org/en)
+To run the client file<br />
+There are pre-requisites:<br />
+Node Package Manager(npm)<br />
+Read documentation on [Node Docs](https://nodejs.org/en)<br />
 If you have it already ignore it
 
 ## Run in production mode
