@@ -29,7 +29,7 @@ export default function Review() {
               Browse Our Bestsellers
             </p>
           </div>
-          <div className="bg-bone h-[fit-content] w-[95vw] md:w-[78vw] lg:w-[100%] p-[16px] mt-4 rounded-[64px] sm:rounded-[64px]">
+          <div className="bg-lion h-[fit-content] w-[95vw] md:w-[78vw] lg:w-[100%] p-[16px] mt-4 rounded-[64px] sm:rounded-[64px]">
             <div className="bg-lion max-h-[60vh] shadow-reviewShadow rounded-[148px]  sm:rounded-[48px] overflow-scroll -webkit-overflow-scroll">
               <Marquee gradientWidth={0} speed={40}>
                 <ReviewCard key="sdf" imageArr={imageArr.slice(0, 5)} />

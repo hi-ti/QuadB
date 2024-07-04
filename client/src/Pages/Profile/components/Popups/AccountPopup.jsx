@@ -7,7 +7,7 @@ import { toast } from "react-hot-toast";
 
 const Input = styled("input")(() => ({
   padding: "12px 16px",
-  borderRadius: "20px",
+  borderRadius: "10px",
   marginTop: "14px",
   width: "100%",
   background: "transparent",
@@ -26,7 +26,7 @@ const Input = styled("input")(() => ({
 const LongInput = styled(TextareaAutosize)(() => ({
   width: "100%",
   background: "transparent",
-  borderRadius: "20px",
+  borderRadius: "10px",
   marginTop: "14px",
   padding: "16px",
   outline: "none",
@@ -148,8 +148,8 @@ function AccountPopup({ bool, setBool, setDetailsFlag }) {
         <Box
           sx={{
             padding: "16px",
-            background: "#EFD2AC",
-            borderRadius: "20px",
+            background: "white",
+            borderRadius: "10px",
             maxWidth: "500px",
             width: "100%",
           }}
@@ -233,16 +233,17 @@ function AccountPopup({ bool, setBool, setDetailsFlag }) {
               }
             }}
             sx={{
-              bgcolor: "#8B5F4D",
-              borderRadius: "100px",
-              border: "2px solid #8B5F4D",
+              bgcolor: "#A5905EFF",
+              // color: "#000",
+              borderRadius: "25px",
+              border: "1px solid red",
               fontSize: "1.1rem",
               fontWeight: "bold",
               transition: "all 0.5s",
               textTransform: "none",
               fontFamily: "Montserrat",
               color: "white",
-              "&:hover": { bgcolor: "white", color: "#8B5F4D" },
+              "&:hover": { bgcolor: "white", color: "#A5905Eff" },
               marginTop: "14px",
               width: "100%",
             }}

@@ -17,15 +17,15 @@ const Page = ({ children }) => {
   }, [user.mongoUser]);
   return (
     <main>
-      <div className="bg-[#fff8ef] pt-[5rem] flex justify-center items-center flex-col gap-[5%]">
-        <div className="w-[80%] max-w-[1200px] py-16 bg-[#EDE5D7ff] rounded-[60px] grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 grid-cols-1 mb-[64px]">
+      <div className="bg-bone pt-[5rem] flex justify-center items-center flex-col gap-[5%]">
+        <div className="w-[80%] max-w-[1200px] py-16 bg-bone rounded-[10px] grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 grid-cols-1 mb-[64px]">
           <div className="2xl:basis-1/2 xl:basis-1/2 lg:basis-1/2 md:basis-full sm:basis-full xs:basis-full flex justify-center items-center">
             <Avatar
               sx={{
                 fontSize: "32px",
                 width: "150px",
                 height: "150px",
-                background: "#815444",
+                background: "#A5905Eff",
               }}
             >
               {(details.firstname) && details.firstname[0]}
@@ -33,7 +33,7 @@ const Page = ({ children }) => {
           </div>
           <div className=" px-8 basis-full flex justify-center items-center flex-col gap-[6%]">
             <div className="flex 2xl:justify-start xl:justify-start lg:justify-start md:justify-center sm:justify-center justify-center w-[100%] mb-4">
-              <div className="bg-balck text-[#6a2b00] text-[2rem] border-b-[#773d15] border-b-[2.8px] border-solid 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
+              <div className="text-[2rem] border-b-[2.8px] border-solid 2xl:text-left xl:text-left lg:text-left md:text-center sm:text-center text-center">
                 Hello {details?.firstname}!
               </div>
             </div>
@@ -63,7 +63,7 @@ const Page = ({ children }) => {
         </div>
 
         <div className=" max-w-[1200px] 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full w-fit pb-16 flex flex-row items-center">
-          <button className="text-[#6a2b00] 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full font-[500] text-xl text-center border-r-2 border-black 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-5 px-3 py-4">
+          <button className="text-lion 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full font-[500] text-xl text-center border-r-2 border-black 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-5 px-3 py-4">
             <Link
               to="/profile/account"
               className="2xl:block xl:block lg:block md:hidden sm:hidden hidden"
@@ -87,7 +87,7 @@ const Page = ({ children }) => {
               />
             </div>
           </button>
-          <button className="text-[#6a2b00] 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full font-[500] text-xl text-center 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-5 px-3 py-4">
+          <button className="text-lion 2xl:w-full xl:w-full lg:w-full md:w-full sm:w-full xs:w-full font-[500] text-xl text-center 2xl:px-10 xl:px-10 lg:px-10 md:px-10 sm:px-5 px-3 py-4">
             <Link
               to="/profile/order"
               className="2xl:block xl:block lg:block md:hidden sm:hidden hidden"

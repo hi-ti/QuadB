@@ -342,7 +342,7 @@ function Account() {
       <Box
         sx={{
           borderRadius: "20px",
-          background: "#EDE5D7ff",
+          background: "white",
           width: "100%",
           padding: {
             md: "32px",
@@ -480,7 +480,8 @@ function Account() {
                 sx={{
                   background: "#A5905Eff",
                   "&:hover": {
-                    background: "#A5905Eff",
+                    background: "#FF0000ff",
+                    text: "white",
                   },
                 }}
                 onClick={(e) => {
@@ -529,7 +530,7 @@ function Account() {
                 sx={{
                   background: "#A5905Eff",
                   "&:hover": {
-                    background: "#A5905Eff",
+                    background: "#FF0000ff",
                   },
                 }}
                 onClick={() => {

@@ -66,9 +66,9 @@ const Popup = (props) => {
             height: "100%",
           }} />
         </div>
-        <div className="py-10 md:py-[48px] p-[24px] w-full md:w-[55%] flex md:flex-col items-center justify-center">
+        <div className="bg-alab py-10 md:py-[48px] p-[24px] w-full md:w-[55%] flex md:flex-col items-center justify-center">
           <div className="w-full md:w-[80%] h-[80%] flex flex-col items-center justify-center gap-[1rem]">
-            <p className="font-montserrat text-4xl text-center font-[700] w-[90%] text-white mb-[-2%] tracking-[0.1rem] ">
+            <p className="font-montserrat text-4xl text-center font-[700] w-[90%] text-black mb-[-2%] tracking-[0.1rem] ">
               Join here
             </p>
             <input
@@ -90,12 +90,12 @@ const Popup = (props) => {
               placeholder="PASSWORD"
             ></input>
             <button
-              className="w-[60%] bg-primary text-white rounded-[100px] text-[16px] border-none p-[16px] "
+              className="w-[40%] bg-[#A5905E] text-white rounded-[50px] text-[16px] border-none p-[8px] "
               onClick={handleSignIn}
             >
               SIGN IN
             </button>
-            <div className="w-full text-center text-bone">
+            <div className="w-full text-center text-[#A5905Eff]">
               <span className="mr-[8px]">Don't have an account?</span>
               <button
                 className="bg-transparent border-none text-primary text-md font-[600]"
